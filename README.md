@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
 
-This contains everything you need to run your app locally.
+# Diya Narula | F1 Themed Portfolio
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ufqnOKqlc80vHh5OPxOByI9m9oNwPMSC
+An immersive 3D portfolio website inspired by Formula 1, built to showcase my engineering and design skills.
 
-## Run Locally
+## 👩‍💻 About Me
 
-**Prerequisites:**  Node.js
+I am a **Third Year Computer Science and Design (CSD)** student at **IIIT Delhi**.
 
+I blend engineering precision with creative design, much like an F1 team optimizing for speed and aesthetics. My passion lies in building scalable systems, crafting intuitive user experiences, and solving complex algorithmic problems.
+
+- **Codeforces Rating:** 1771 (Expert)
+- **Focus Areas:** Full Stack Development, AI/ML, and Creative Coding.
+
+## 🏎️ Tech Stack
+- **Framework:** React + Vite
+- **3D Engine:** Three.js (@react-three/fiber)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Language:** TypeScript
+
+## 🏁 Run Locally
+
+**Prerequisites:** Node.js
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Run the app:
    `npm run dev`

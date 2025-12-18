@@ -7,26 +7,6 @@ import { Project } from '../types';
 const projects: Project[] = [
   {
     id: 1,
-    title: 'FitCheck',
-    category: 'AI Fashion Tech',
-    filterCategory: 'ai-ml',
-    description: 'Myntra Hackerramp Runner-up. AI styling platform analyzing body shape for personalized outfits with virtual try-on.',
-    techStack: ['React 19', 'AWS', 'Gemini Nano', 'Python'],
-    githubUrl: '#',
-    image: '/assets/project-1.jpg'
-  },
-  {
-    id: 2,
-    title: 'Research Collab',
-    category: 'Distributed Systems',
-    filterCategory: 'full-stack',
-    description: 'Production-grade platform for managing research grants and RBAC. Scalable architecture for university-wide adoption.',
-    techStack: ['TypeScript', 'Node.js', 'PostgreSQL', 'Docker'],
-    githubUrl: 'https://github.com/GodMakesMe/ResearchCollab',
-    image: '/assets/project-2.jpg'
-  },
-  {
-    id: 3,
     title: 'Credit Card Fraud',
     category: 'FinTech ML',
     filterCategory: 'ai-ml',
@@ -36,17 +16,7 @@ const projects: Project[] = [
     image: '/assets/project-3.jpg'
   },
   {
-    id: 4,
-    title: 'ResQpet',
-    category: 'Social Impact',
-    filterCategory: 'full-stack',
-    description: 'Offline-first rescue coordination app. Features NGO dashboards and AI first-aid chatbot.',
-    techStack: ['Flutter', 'Firebase', 'Gemini API'],
-    githubUrl: 'https://github.com/diyanarula15/ResQpet',
-    image: '/assets/project-4.jpg'
-  },
-  {
-    id: 5,
+    id: 2,
     title: 'Angry Birds Clone',
     category: 'Game Dev',
     filterCategory: 'creative',
@@ -56,37 +26,47 @@ const projects: Project[] = [
     image: '/assets/project-5.jpg'
   },
   {
+    id: 3,
+    title: 'FitCheck',
+    category: 'AI Fashion Tech',
+    filterCategory: 'ai-ml',
+    description: 'Myntra Hackerramp Runner-up. AI styling platform analyzing body shape for personalized outfits with virtual try-on.',
+    techStack: ['React 19', 'AWS', 'Gemini Nano', 'Python'],
+    githubUrl: '#',
+    image: '/assets/project-1.jpg'
+  },
+  {
+    id: 4,
+    title: 'Research Collab',
+    category: 'Distributed Systems',
+    filterCategory: 'full-stack',
+    description: 'Production-grade platform for managing research grants and RBAC. Scalable architecture for university-wide adoption.',
+    techStack: ['TypeScript', 'Node.js', 'PostgreSQL', 'Docker'],
+    githubUrl: 'https://github.com/GodMakesMe/ResearchCollab',
+    image: '/assets/project-2.jpg'
+  },
+  {
+    id: 5,
+    title: 'ResQpet',
+    category: 'Social Impact',
+    filterCategory: 'full-stack',
+    description: 'Offline-first rescue coordination app. Features NGO dashboards and AI first-aid chatbot.',
+    techStack: ['Flutter', 'Firebase', 'Gemini API'],
+    githubUrl: 'https://github.com/diyanarula15/ResQpet',
+    image: '/assets/project-4.jpg'
+  },
+  {
     id: 6,
-    title: 'TempStat',
-    category: 'Data Engineering',
-    filterCategory: 'systems',
-    description: 'High-performance system analyzing 50M+ weather records using memory-mapped I/O.',
-    techStack: ['C', 'Systems Programming'],
-    githubUrl: 'https://github.com/diyanarula15/tempstat',
-    image: '/assets/project-6.jpg'
+    title: 'Psychosomatic Triage',
+    category: 'Medical AI',
+    filterCategory: 'ai-ml',
+    description: 'Interpretable NLP system identifying psychosomatic encounters from MIMIC-IV summaries using ClinicalBERT and weak supervision.',
+    techStack: ['Python', 'ClinicalBERT', 'PyTorch', 'MIMIC-IV'],
+    githubUrl: 'https://github.com/diyanarula15/Psychosomatic-Triage-from-EMRs-An-Interpretable-NLP-Framework-',
+    image: '/assets/project-12.jpg'
   },
   {
     id: 7,
-    title: 'Byte Me App',
-    category: 'Backend Systems',
-    filterCategory: 'full-stack',
-    description: 'Comprehensive food ordering system with dynamic menu browsing and robust inventory management.',
-    techStack: ['Java', 'Java Swing'],
-    githubUrl: 'https://github.com/diyanarula15/byteme',
-    image: '/assets/project-7.jpg'
-  },
-  {
-    id: 8,
-    title: 'Yahtzee',
-    category: 'Algorithm Design',
-    filterCategory: 'creative',
-    description: 'Digital implementation of the classic dice game focused on efficient scoring algorithms.',
-    techStack: ['Python'],
-    githubUrl: 'https://github.com/diyanarula15/yahtzee',
-    image: '/assets/project-8.jpg'
-  },
-  {
-    id: 9,
     title: 'KUSH Shell',
     category: 'OS Dev',
     filterCategory: 'systems',
@@ -96,14 +76,54 @@ const projects: Project[] = [
     image: '/assets/project-9.jpg'
   },
   {
-    id: 10,
+    id: 8,
     title: 'ProofPath',
     category: 'FinTech',
     filterCategory: 'ai-ml',
     description: 'White-box decisioning platform converting ML scores into auditable "reason receipts".',
     techStack: ['Python', 'TypeScript', 'PostgreSQL'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/diyanarula15/Proof_Path',
     image: '/assets/project-10.jpg'
+  },
+  {
+    id: 9,
+    title: 'WhatsApp Clone',
+    category: 'Distributed Systems',
+    filterCategory: 'systems',
+    description: 'Real-time chat app using WebSockets over TCP. Features full-duplex messaging and asynchronous server design.',
+    techStack: ['Python', 'Asyncio', 'WebSockets', 'TCP/IP'],
+    githubUrl: 'https://github.com/diyanarula15/WhatsApp-Clone',
+    image: '/assets/project-11.jpg'
+  },
+  {
+    id: 10,
+    title: 'Yahtzee',
+    category: 'Algorithm Design',
+    filterCategory: 'creative',
+    description: 'Digital implementation of the classic dice game focused on efficient scoring algorithms.',
+    techStack: ['Python'],
+    githubUrl: 'https://github.com/diyanarula15/yahtzee',
+    image: '/assets/project-8.jpg'
+  },
+  {
+    id: 11,
+    title: 'Byte Me App',
+    category: 'Backend Systems',
+    filterCategory: 'full-stack',
+    description: 'Comprehensive food ordering system with dynamic menu browsing and robust inventory management.',
+    techStack: ['Java', 'Java Swing'],
+    githubUrl: 'https://github.com/diyanarula15/byteme',
+    image: '/assets/project-7.jpg'
+  },
+  {
+    id: 12,
+    title: 'TempStat',
+    category: 'Data Engineering',
+    filterCategory: 'systems',
+    description: 'High-performance system analyzing 50M+ weather records using memory-mapped I/O.',
+    techStack: ['C', 'Systems Programming'],
+    githubUrl: 'https://github.com/diyanarula15/tempstat',
+    image: '/assets/project-6.jpg'
   }
 ];
 
