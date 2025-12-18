@@ -60,7 +60,7 @@ export const Contact = () => {
 
         {/* Social Buttons */}
         <div className="grid grid-cols-2 gap-4 mt-8">
-          <a href="https://linkedin.com/in/diya-narula-b33700256" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 py-4 rounded bg-[#0077b5]/10 border border-[#0077b5]/30 hover:bg-[#0077b5]/20 hover:border-[#0077b5] text-[#0077b5] transition-all font-display tracking-widest hover:scale-[1.02]">
+          <a href="https://www.linkedin.com/in/diya-narula-54087b2a5/" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 py-4 rounded bg-[#0077b5]/10 border border-[#0077b5]/30 hover:bg-[#0077b5]/20 hover:border-[#0077b5] text-[#0077b5] transition-all font-display tracking-widest hover:scale-[1.02]">
             <Linkedin className="w-5 h-5" /> LINKEDIN
           </a>
           <a href="https://github.com/diyanarula15" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 py-4 rounded bg-[#333]/30 border border-white/10 hover:border-white hover:bg-white/10 text-white transition-all font-display tracking-widest hover:scale-[1.02]">

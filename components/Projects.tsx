@@ -13,7 +13,7 @@ const projects: Project[] = [
     description: 'Myntra Hackerramp Runner-up. AI styling platform analyzing body shape for personalized outfits with virtual try-on.',
     techStack: ['React 19', 'AWS', 'Gemini Nano', 'Python'],
     githubUrl: '#',
-    image: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=2574&auto=format&fit=crop'
+    image: '/assets/project-1.jpg'
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const projects: Project[] = [
     description: 'Production-grade platform for managing research grants and RBAC. Scalable architecture for university-wide adoption.',
     techStack: ['TypeScript', 'Node.js', 'PostgreSQL', 'Docker'],
     githubUrl: 'https://github.com/GodMakesMe/ResearchCollab',
-    image: 'https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2670&auto=format&fit=crop'
+    image: '/assets/project-2.jpg'
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const projects: Project[] = [
     description: 'End-to-end ML pipeline achieving 99% accuracy. Benchmarked multiple classifiers on large transaction datasets.',
     techStack: ['Python', 'Scikit-Learn', 'Pandas'],
     githubUrl: 'https://github.com/diyanarula15/Credit-Cart',
-    image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=2670&auto=format&fit=crop'
+    image: '/assets/project-3.jpg'
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const projects: Project[] = [
     description: 'Offline-first rescue coordination app. Features NGO dashboards and AI first-aid chatbot.',
     techStack: ['Flutter', 'Firebase', 'Gemini API'],
     githubUrl: 'https://github.com/diyanarula15/ResQpet',
-    image: 'https://images.unsplash.com/photo-1548767797-d8c844163c4c?q=80&w=2670&auto=format&fit=crop'
+    image: '/assets/project-4.jpg'
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const projects: Project[] = [
     description: 'Physics-based game engine implementing projectile motion, collision detection, and destructible environments.',
     techStack: ['Java', 'LibGDX'],
     githubUrl: 'https://github.com/diyanarula15/angry-birds-clone',
-    image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2670&auto=format&fit=crop'
+    image: '/assets/project-5.jpg'
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ const projects: Project[] = [
     description: 'High-performance system analyzing 50M+ weather records using memory-mapped I/O.',
     techStack: ['C', 'Systems Programming'],
     githubUrl: 'https://github.com/diyanarula15/tempstat',
-    image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?q=80&w=2565&auto=format&fit=crop'
+    image: '/assets/project-6.jpg'
   },
   {
     id: 7,
@@ -73,7 +73,7 @@ const projects: Project[] = [
     description: 'Comprehensive food ordering system with dynamic menu browsing and robust inventory management.',
     techStack: ['Java', 'Java Swing'],
     githubUrl: 'https://github.com/diyanarula15/byteme',
-    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2670&auto=format&fit=crop'
+    image: '/assets/project-7.jpg'
   },
   {
     id: 8,
@@ -83,7 +83,7 @@ const projects: Project[] = [
     description: 'Digital implementation of the classic dice game focused on efficient scoring algorithms.',
     techStack: ['Python'],
     githubUrl: 'https://github.com/diyanarula15/yahtzee',
-    image: 'https://images.unsplash.com/photo-1605634509425-4c07e0344d2d?q=80&w=2669&auto=format&fit=crop'
+    image: '/assets/project-8.jpg'
   },
   {
     id: 9,
@@ -93,7 +93,7 @@ const projects: Project[] = [
     description: 'Custom Unix shell supporting piping, redirection, and signal handling to emulate bash.',
     techStack: ['C', 'Linux'],
     githubUrl: 'https://github.com/diyanarula15/Kush',
-    image: 'https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=2574&auto=format&fit=crop'
+    image: '/assets/project-9.jpg'
   },
   {
     id: 10,
@@ -103,7 +103,7 @@ const projects: Project[] = [
     description: 'White-box decisioning platform converting ML scores into auditable "reason receipts".',
     techStack: ['Python', 'TypeScript', 'PostgreSQL'],
     githubUrl: '#',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2670&auto=format&fit=crop'
+    image: '/assets/project-10.jpg'
   }
 ];
 

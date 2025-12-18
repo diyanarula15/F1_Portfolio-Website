@@ -8,7 +8,7 @@ const funStats: Stat[] = [
   { label: 'LANGUAGES', value: '5+', icon: <Code className="w-5 h-5 text-neon-pink" /> },
   { label: 'COFFEE', value: '∞', icon: <Coffee className="w-5 h-5 text-cyan-ice" /> },
   { label: 'BUGS', value: '404', icon: <Bug className="w-5 h-5 text-rose-gold" /> },
-  { label: 'WPM', value: '100', icon: <Zap className="w-5 h-5 text-yellow-400" /> },
+  { label: 'WPM', value: '102', icon: <Zap className="w-5 h-5 text-yellow-400" /> },
 ];
 
 export const About = () => {
@@ -33,9 +33,9 @@ export const About = () => {
            <div className="relative h-[70%] w-full overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-t from-[#0f0c29] via-transparent to-transparent z-10 opacity-80"></div>
               
-              {/* Image - Updated to use local asset 'diya.jpg' */}
+              {/* Image - Updated to use local asset 'diyanarula.jpg' */}
               <img 
-                src="./diya.jpg" 
+                src="/assets/diyanarula.jpg" 
                 alt="Diya Narula" 
                 className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-110 object-top"
               />
@@ -72,7 +72,7 @@ export const About = () => {
               {/* Stats Grid */}
               <div className="grid grid-cols-3 gap-3 relative z-10 h-full">
                  <div className="flex flex-col items-center justify-center p-2 bg-white/5 rounded border border-white/5 hover:border-gold/50 transition-colors group/stat">
-                    <span className="font-display text-2xl font-bold text-gold group-hover/stat:scale-110 transition-transform">1734</span>
+                    <span className="font-display text-2xl font-bold text-gold group-hover/stat:scale-110 transition-transform">1771</span>
                     <span className="font-mono text-[9px] text-gray-400 mt-1 text-center">RATING</span>
                     <span className="font-mono text-[8px] text-gold/60 uppercase tracking-wider">EXPERT</span>
                  </div>
@@ -83,7 +83,7 @@ export const About = () => {
                  </div>
                  <div className="flex flex-col items-center justify-center p-2 bg-white/5 rounded border border-white/5 hover:border-rose-gold/50 transition-colors group/stat">
                     <span className="font-display text-2xl font-bold text-rose-gold group-hover/stat:scale-110 transition-transform">1K+</span>
-                    <span className="font-mono text-[9px] text-gray-400 mt-1 text-center">LAPS</span>
+                    <span className="font-mono text-[9px] text-gray-400 mt-1 text-center">DSA Qs</span>
                     <span className="font-mono text-[8px] text-rose-gold/60 uppercase tracking-wider">SOLVED</span>
                  </div>
               </div>
@@ -135,7 +135,7 @@ export const About = () => {
              <div className="h-[1px] bg-white/10 flex-grow"></div>
           </div>
           <div className="flex flex-wrap gap-3">
-            {['React', 'TypeScript', 'Three.js', 'Figma', 'Python', 'C++', 'Next.js', 'Tailwind'].map((tech) => (
+            {['Python', 'C++', 'Java', 'C', 'TypeScript', 'Three.js', 'Figma', 'React', 'Next.js'].map((tech) => (
               <span key={tech} className="px-3 py-1 text-xs font-mono border border-cyan-ice/30 text-cyan-ice rounded bg-cyan-ice/5 hover:bg-cyan-ice/20 hover:text-white transition-colors cursor-crosshair font-bold uppercase">
                 {tech}
               </span>

@@ -29,7 +29,7 @@ const gauges: Gauge[] = [
     borderColor: 'border-cyan-ice',
     bgGradient: 'from-cyan-ice/20 to-transparent',
     content: [
-      { category: 'Core', text: ['C++', 'Python', 'Java'] },
+      { category: 'Core', text: ['C++', 'Java', 'Python', 'C'] },
       { category: 'Web', text: ['JavaScript', 'TypeScript', 'HTML/CSS'] },
       { category: 'Tools', text: ['Bash', 'SQL', 'Assembly'] }
     ]
@@ -58,7 +58,7 @@ const gauges: Gauge[] = [
     borderColor: 'border-gold',
     bgGradient: 'from-gold/20 to-transparent',
     content: [
-      { category: 'Codeforces', text: ['Expert', 'Rating: 1734'] },
+      { category: 'Codeforces', text: ['Expert', 'Rating: 1771'] },
       { category: 'Volume', text: ['1000+ Problems Solved'] },
       { category: 'Wins', text: ['Goldman Sachs #1', 'Myntra Runner-Up'] }
     ]

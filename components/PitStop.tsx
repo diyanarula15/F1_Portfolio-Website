@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Flag, Palette, Dribbble, Grid as GridIcon } from 'lucide-react';
+import { Flag, Palette, Dribbble, BookOpen } from 'lucide-react';
 import { Hobby } from '../types';
 
 const hobbies: Hobby[] = [
@@ -11,7 +11,7 @@ const hobbies: Hobby[] = [
     gridArea: 'col-span-2 row-span-2',
     icon: <Flag className="w-6 h-6" />,
     color: 'bg-teal-500/20 border-teal-500',
-    image: 'https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&q=80&w=1000'
+    image: '/assets/hobby-f1.jpg'
   },
   {
     title: 'Painting',
@@ -20,7 +20,7 @@ const hobbies: Hobby[] = [
     gridArea: 'col-span-1 row-span-1',
     icon: <Palette className="w-6 h-6" />,
     color: 'bg-rose-500/20 border-rose-500',
-    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=1000'
+    image: '/assets/hobby-painting.jpg'
   },
   {
     title: 'Basketball',
@@ -29,16 +29,16 @@ const hobbies: Hobby[] = [
     gridArea: 'col-span-1 row-span-1',
     icon: <Dribbble className="w-6 h-6" />,
     color: 'bg-orange-500/20 border-orange-500',
-    image: 'https://images.unsplash.com/photo-1546519638-68e109498ee2?auto=format&fit=crop&q=80&w=1000'
+    image: '/assets/hobby-basketball.jpg'
   },
   {
-    title: '2048',
-    type: 'Logic',
-    description: 'Pattern recognition game. High score: 131,072.',
+    title: 'Reading',
+    type: 'Leisure',
+    description: 'Exploring new worlds through pages. Currently reading sci-fi.',
     gridArea: 'col-span-2 row-span-1',
-    icon: <GridIcon className="w-6 h-6" />,
+    icon: <BookOpen className="w-6 h-6" />,
     color: 'bg-yellow-500/20 border-yellow-500',
-    image: 'https://images.unsplash.com/photo-1611316492316-56f87455855c?auto=format&fit=crop&q=80&w=1000'
+    image: '/assets/hobby-reading.jpg'
   }
 ];
 
